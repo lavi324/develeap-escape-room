@@ -16,6 +16,8 @@ https://develeap.academyocean.com/course/linux-bash-copy-copy/lesson/task-2-bash
 
 3) **whatsupman** (password for room 2 readme file)
 
+   
+
 **Room 2:**
 **Instructions:**
 
