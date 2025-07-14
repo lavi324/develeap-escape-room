@@ -67,10 +67,15 @@ https://develeap.academyocean.com/course/linux-bash-copy-copy/lesson/task-2-bash
 3) grep -v '^$' song | wc -l            /////12+39+32=**83**
 
 4) Create the required food file /////////   touch food
+5) 
    Change group ///////// sudo chgrp vegan food
+   
    Add execution permission ///////// sudo chmod +x creature.sh
+   
    Execute the script ////////// ./creature.sh
+   
    The pass to open the chest is 1195723
+   
    vim treasureChest -> insert passkey -> **linuxisfun**
 
 
