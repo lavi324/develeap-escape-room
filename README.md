@@ -66,4 +66,24 @@ https://develeap.academyocean.com/course/linux-bash-copy-copy/lesson/task-2-bash
 
 3) grep -v '^$' song | wc -l            /////12+39+32=**83**
 
+4) Create the required food file /////////   touch food
+   Change group ///////// sudo chgrp vegan food
+   Add execution permission ///////// sudo chmod +x creature.sh
+   Execute the script ////////// ./creature.sh
+   The pass to open the chest is **1195723**
+   vim treasureChest -> insert passkey -> linuxisfun
 
+
+   
+ **Room 4:**
+**Instructions:**  
+
+1)  The room keeper doesnt like the letter 'H' so he replaced it with 'zing' (dont ask me why...)
+
+2) He is not into 'h'as well, so he replace it with 'blu'.
+
+3) Last thing, he despises the letter 'i', so he prefers to say it as 'bla'.
+
+**Commands:**   
+
+1) 
