@@ -23,10 +23,14 @@ https://develeap.academyocean.com/course/linux-bash-copy-copy/lesson/task-2-bash
 **Room 2:**
 **Instructions:**
 
-1.Find out the White Rabbit's user ID . 
+1.Find out the White Rabbit's user ID. 
+
 2.Search the users_list file in this room for the ID from step 1.
+
 3.Find the name of the user who has the IP that starts with this ID. 
+
 4.Search for all the appearances of the name you found in Logs folder.
+
 5.Sort the results (content only) by alphabetical order, you will find the key to the next room.
 
 **Commands:**
