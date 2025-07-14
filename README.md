@@ -2,6 +2,8 @@ https://develeap.academyocean.com/course/linux-bash-copy-copy/lesson/task-2-bash
 
 **Mission: Zip a file with all the passwords from all rooms and a screenshot of the last room.**
 
+
+
 **Room 1:**
 **Instructions:**
 1. Navigate to the 'room_files' directory and remove all files with the '.txt' extension (It's recommended to backup the folder before proceeding)
