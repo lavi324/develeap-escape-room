@@ -7,7 +7,9 @@ https://develeap.academyocean.com/course/linux-bash-copy-copy/lesson/task-2-bash
 **Room 1:**
 **Instructions:**
 1) Navigate to the 'room_files' directory and remove all files with the '.txt' extension (It's recommended to backup the folder before proceeding)
+   
 2) Sort the remaining files by size (including hidden files) Look at the first letter of each filename to reveal a hidden message
+
 3) Use the hidden message (in lowercase) as the password to access the next room's README file
 
 **Commands:**
@@ -44,5 +46,24 @@ https://develeap.academyocean.com/course/linux-bash-copy-copy/lesson/task-2-bash
 4) grep -ri jackie Logs/
 
 5) grep -ri jackie Logs/ | sort -t':' -k2 | cut -d':' -f3-        //////// **472**
+
+
+
+**Room 3:**
+**Instructions:**
+
+1) Count all "do" word appearances.
+   
+2) Count only LINES which does NOT contain "home".
+
+3) Count only non empty lines.
+
+**Commands:**
+
+1) grep -o '\bdo\b' song | wc -l
+
+2) grep -v 'home' song | wc -l
+
+3) grep -v '^$' song | wc -l            /////12+39+32=**83**
 
 
