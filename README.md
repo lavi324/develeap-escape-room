@@ -70,8 +70,8 @@ https://develeap.academyocean.com/course/linux-bash-copy-copy/lesson/task-2-bash
    Change group ///////// sudo chgrp vegan food
    Add execution permission ///////// sudo chmod +x creature.sh
    Execute the script ////////// ./creature.sh
-   The pass to open the chest is **1195723**
-   vim treasureChest -> insert passkey -> linuxisfun
+   The pass to open the chest is 1195723
+   vim treasureChest -> insert passkey -> **linuxisfun**
 
 
    
@@ -86,4 +86,19 @@ https://develeap.academyocean.com/course/linux-bash-copy-copy/lesson/task-2-bash
 
 **Commands:**   
 
-1) 
+sed -e 's/zing/H/g' -e 's/blu/h/g' -e 's/bla/i/g' crazyText
+
+"The password for the key is linuxisstillfun"
+
+open the "key" file with the key from step 2 -> **crazyroom** .
+
+
+
+ **Room 5:**
+**Instructions:**  
+
+
+
+
+
+
