@@ -6,9 +6,9 @@ https://develeap.academyocean.com/course/linux-bash-copy-copy/lesson/task-2-bash
 
 **Room 1:**
 **Instructions:**
-1. Navigate to the 'room_files' directory and remove all files with the '.txt' extension (It's recommended to backup the folder before proceeding)
-2. Sort the remaining files by size (including hidden files) Look at the first letter of each filename to reveal a hidden message
-3. Use the hidden message (in lowercase) as the password to access the next room's README file
+1) Navigate to the 'room_files' directory and remove all files with the '.txt' extension (It's recommended to backup the folder before proceeding)
+2) Sort the remaining files by size (including hidden files) Look at the first letter of each filename to reveal a hidden message
+3) Use the hidden message (in lowercase) as the password to access the next room's README file
 
 **Commands:**
 
