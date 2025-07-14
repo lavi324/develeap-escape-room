@@ -193,9 +193,10 @@ Run boogiewoogie 3 -> Confirmed it printed the phrase 3 times.
 
 Run BlackBox.jar again to verify -> The pass to open the chest is **shutupanddance**
 
-  **Room 8:**
-**Instructions:** 
+  **Room 9:**
 
+
+**trivia challenge**
    
 
 
