@@ -86,7 +86,7 @@ https://develeap.academyocean.com/course/linux-bash-copy-copy/lesson/task-2-bash
 
 **Commands:**   
 
-sed -e 's/zing/H/g' -e 's/blu/h/g' -e 's/bla/i/g' crazyText
+1,2,3) sed -e 's/zing/H/g' -e 's/blu/h/g' -e 's/bla/i/g' crazyText
 
 "The password for the key is linuxisstillfun"
 
@@ -96,6 +96,15 @@ open the "key" file with the key from step 2 -> **crazyroom** .
 
  **Room 5:**
 **Instructions:**  
+
+1) To proceed you need to face the Phoenix! This is a '.jar' creature.
+You need to find a way to talk with him...
+When you do..just ask him to 'fire' up the place...
+
+**Commands:**   
+
+
+
 
 
 
