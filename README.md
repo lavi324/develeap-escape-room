@@ -164,9 +164,37 @@ java -jar magic.jar magic -> The pass to next room is: **linuxmagic**
   **Room 8:**
 **Instructions:** 
 
-   
+1) We need to create a new shell command named boogiewoogie.
 
+This command must accept a single number argument N.
 
+It should print the phrase "I like to boogiewoogie every day!" exactly N times, each on its own line.
+
+The BlackBox.jar would run boogiewoogie 3 and check if it behaves as expected.
+
+**Commands:** 
+
+Run the BlackBox.jar for instructions -> The jar told us to create a command called boogiewoogie that prints the phrase N times.
+
+Checked if ~/bin exists,  and if not, create: mkdir ~/bin
+
+Create the boogiewoogie script:
+#!/bin/bash
+N=$1
+for ((i=0; i<N; i++)); do
+  echo "I like to boogiewoogie every day!"
+done
+
+Set execute permissions
+
+export PATH=$HOME/bin:$PATH
+
+Run boogiewoogie 3 -> Confirmed it printed the phrase 3 times.
+
+Run BlackBox.jar again to verify -> The pass to open the chest is **shutupanddance**
+
+  **Room 8:**
+**Instructions:** 
 
    
 
