@@ -140,6 +140,29 @@ nano make_check.sh -> paste the script -> Make it executable and run -> java -ja
   **Room 7:**
 **Instructions:** 
 
+1. get all the 'files' column content from 'table.csv' file.
+2. filter only 'png' extentions files
+3. sort by alhanumeric order
+4. get rid of the 'junk' in every line
+5. get rid of the png extention and the numbers
+6. save the output lines in a file named 'magic', each word in separate line(keep the sorting order from step 3).:
+7. show the file to the jar magic creature(send as parameter) and you will see the password.
+
+**Commands:** 
+
+tail -n +2 table.csv \
+  | cut -d',' -f4 \
+  | grep '\.png$' \
+  | sort \
+  | sed -E 's/\.png$//' \
+  | sed -E 's/^junk[0-9]*//' > magic
+
+java -jar magic.jar magic -> The pass to next room is: **linuxmagic**
+
+
+
+  **Room 8:**
+**Instructions:** 
 
    
 
