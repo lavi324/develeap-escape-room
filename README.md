@@ -108,6 +108,16 @@ When you do..just ask him to 'fire' up the place...
 
 **Commands:**   
 
+1) sudo apt update && sudo apt install default-jre -y -> java -jar PhoenixFire.jar fire -> cat fire.txt -> **fireofthephoenix**
+
+
+
+  **Room 6:**
+**Instructions:**  
+
+
+
+   
 
 
 
