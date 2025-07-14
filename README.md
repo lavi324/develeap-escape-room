@@ -115,6 +115,34 @@ When you do..just ask him to 'fire' up the place...
   **Room 6:**
 **Instructions:**  
 
+1) To proceed you need to satisfy the game 7 boom 'jar' which can be found nearby...
+The jar file wants you to create a file named 'check.txt'. 
+The file content should follow these rules:
+each line has only one number starting from 1 until 100,
+every number that can be divided by 7 without a remainder should be 7.
+
+**Commands:** 
+
+1)
+#!/bin/bash
+for i in {1..100}; do
+  if (( i % 7 == 0 )); then
+    echo 7
+  else
+    echo $i
+  fi
+done > check.txt
+
+nano make_check.sh -> paste the script -> Make it executable and run -> java -jar game7boom.jar -> The password is : 'jumanji' -> open the "key" file with the new password and get the new key for room 7 -> **linuxpro**
+
+
+
+  **Room 7:**
+**Instructions:** 
+
+
+   
+
 
 
    
